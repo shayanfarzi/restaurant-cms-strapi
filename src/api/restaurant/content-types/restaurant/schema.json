@@ -36,6 +36,12 @@
       "type": "component",
       "repeatable": false,
       "component": "restaurant-info.opening-hours"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "restaurants"
     }
   }
 }
