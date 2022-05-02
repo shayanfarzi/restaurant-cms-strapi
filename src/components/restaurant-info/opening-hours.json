@@ -2,14 +2,15 @@
   "collectionName": "components_restaurant_info_opening_hours",
   "info": {
     "displayName": "Opening Hours",
-    "icon": "clock"
+    "icon": "clock",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Hours": {
+    "hours": {
       "type": "string"
     },
-    "Days": {
+    "days": {
       "type": "string"
     }
   }

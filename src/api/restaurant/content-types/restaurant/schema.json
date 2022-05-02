@@ -20,7 +20,7 @@
     "description": {
       "type": "richtext"
     },
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -31,7 +31,7 @@
         "audios"
       ]
     },
-    "OpeningHours": {
+    "openingHours": {
       "displayName": "Opening Hours",
       "type": "component",
       "repeatable": false,
