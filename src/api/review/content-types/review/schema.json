@@ -4,7 +4,8 @@
   "info": {
     "singularName": "review",
     "pluralName": "reviews",
-    "displayName": "Review"
+    "displayName": "Review",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -30,6 +31,12 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::restaurant.restaurant",
+      "inversedBy": "reviews"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
       "inversedBy": "reviews"
     }
   }
