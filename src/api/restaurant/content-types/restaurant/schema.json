@@ -42,6 +42,9 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "restaurants"
+    },
+    "avgPrice": {
+      "type": "decimal"
     }
   }
 }
